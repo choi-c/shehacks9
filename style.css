@@ -1,5 +1,5 @@
 .prompt{
-    width: 88%;
+    /*width: 88%;*/
     height: 16.5%; 
     left: 88px; 
     top: 196px; 
@@ -7,15 +7,15 @@
     background: #D9D9D9; 
     border-radius: 20px;
 }
-    /*
+/*
 .input{
     width: 655px; height: 517px; left: 88px; top: 411px; position: absolute; background: #D9D9D9; border-radius: 20px
 }
-    */
+*/
 div{
     margin: auto;
     width: 88%;
-    background: #D9D9D9; 
     position: relative; 
     border-radius: 20px;
+    /*background: #2E2E2E;*/
 }
