@@ -1,3 +1,4 @@
+    <!-- 
 <html>
     <head>
         <title>Pixie the Coding Bot</title>
@@ -6,7 +7,7 @@
     </head>
 <body>
 
-    <!-- 
+
     <h2>Testy testing</h2>
 
     <p id="p">A Paragraph.</p>
@@ -21,7 +22,7 @@
         <div style="width: 1512px; height: 87px; left: 0px; top: 0px; position: absolute; background: #1A1A1A"></div>
     </div>
     -->
-
+<!-- 
     <div style="width: 100%; height: 100%; position: relative; background: #2E2E2E">
         <div style="width: 2084.40px; height: 2330.61px; left: -158px; top: -544.61px; position: absolute">
             <img style="width: 973.65px; height: 1190.92px; left: 1080px; top: 451.07px; position: absolute; transform: rotate(-27.60deg); transform-origin: 0 0; background: linear-gradient(120deg, #2D3671 0%, rgba(25.13, 159.09, 87.64, 0.70) 100%); box-shadow: 200px 200px 200px; border-radius: 9999px; filter: blur(200px)" src="https://via.placeholder.com/974x1191" />
@@ -80,5 +81,27 @@
             </div>
         </div>
     </div>
+    -->
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code AI</title>
+</head>
+<body>
+    <h1>Code AI</h1>
+    <form id="codeForm">
+        <label for="prompt">Prompt:</label>
+        <input type="text" id="prompt" name="prompt" required>
+        <br>
+        <label for="code">Code:</label>
+        <textarea id="code" name="code" required></textarea>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+    <div id="response"></div>
+
+    <script src="main.js"></script>
 </body>
 </html>
